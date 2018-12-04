@@ -1,6 +1,6 @@
 <?php
 
-namespace Codiiv\Taxonomies\Models;
+namespace Codiiv\Extrameta\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
