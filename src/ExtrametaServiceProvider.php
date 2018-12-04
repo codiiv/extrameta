@@ -24,6 +24,15 @@ class ExtrametaServiceProvider extends ServiceProvider
       ], 'extrameta');
       $this->loadMigrationsFrom(__DIR__.'/database/migrations');
 
+      /**
+       * Send global $postmeta, $usermeta, $termmeta
+       */
+      view()->composer('*', function ($view){
+        $view->with('postmeta', new Models\Postmeta());
+        $view->with('termmeta', new Models\Termmeta());
+        $view->with('usermeta', new Models\Usermeta());
+      });
+
     }
 
     /**
