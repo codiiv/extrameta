@@ -19,9 +19,9 @@ class ExtrametaServiceProvider extends ServiceProvider
       //   __DIR__.'/config/projectmgr.php' => config_path('projectmgr.php'),
       //   __DIR__.'/public' => public_path('projectmgr/assets'),
       // ]);
-      $this->publishes([
-          __DIR__.'/database/' => database_path(),
-      ], 'extrameta');
+      // $this->publishes([
+      //     __DIR__.'/database/' => database_path(),
+      // ], 'extrameta');
       $this->loadMigrationsFrom(__DIR__.'/database/migrations');
 
       /**
