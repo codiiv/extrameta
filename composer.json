@@ -2,10 +2,6 @@
     "name": "codiiv/extrameta",
     "description": "Added Meta tables to laravel. Inspired by the Wordpress database table structure",
     "type": "library",
-    "require": {
-        "php": ">=7.1.3",
-        "illuminate/support": "5.8.*"
-    },
     "license": "MIT",
     "authors": [
         {
