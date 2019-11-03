@@ -9,7 +9,6 @@
             "email": "codiivdev@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
@@ -22,5 +21,12 @@
                 "Codiiv\\Extrameta\\ExtrametaServiceProvider"
             ]
         }
+    },
+    "minimum-stability": "dev",
+    "require": {
+      "laravel/framework": "^6.0"
+    },
+    "require-dev": {
+      "laravel/laravel": "^6.0"
     }
 }
